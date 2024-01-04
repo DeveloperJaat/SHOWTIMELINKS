@@ -43,7 +43,7 @@ if __name__ == "__main__" :
     
     async def start(self):
         me = await self.get_me()
-        self.owner = await self.get_users(int(OWNER_ID))
+        self.owner = await self.get_users(int("1314385986"))
         self.username = f'@{me.username}'
         temp.BOT_USERNAME = me.username
         temp.FIRST_NAME = me.first_name
